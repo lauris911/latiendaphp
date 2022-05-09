@@ -43,3 +43,7 @@ $paises = [
 return view("paises")
 ->with("paises", $paises);
 });
+
+route::get('prueba', function(){
+    return view('productos.create');
+} );
