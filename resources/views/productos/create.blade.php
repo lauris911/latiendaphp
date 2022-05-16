@@ -17,6 +17,19 @@
           <label for="last_name">Descripcion</label>
         </div>
       </div>
+<div class="row">
+  <div class="col s8 input-field">
+    <select name="marca" id="marca">
+        <option>
+          Elija su marca
+        </option>
+        @foreach($marcas as $marca)
+       <option>{{ $marca->nombre }}</option>
+        @endforeach
+    </select>
+  </div>
+</div>
+
       <div class="row">
         <div class="input-field col s12">
           <input disabled value="Precio" id="disabled" type="text" class="validate">
