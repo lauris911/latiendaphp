@@ -54,8 +54,8 @@ route::get('prueba', function(){
     $Categoria = Categoria::all();
     //ingresar Marcas y Categorias a la vista 
     return view('productos.create')
-            ->with('categorias', $Categorias)
-            ->with('marcas', $marcas);
+            ->with('categorias', $Categoria)
+            ->with('marcas', $Marcas);
 
 
 } );

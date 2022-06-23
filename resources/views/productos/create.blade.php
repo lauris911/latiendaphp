@@ -74,9 +74,9 @@
       <div class="file-field input-field">
       <div class="btn">
         <span>Ingresar Imagen</span>
-        <input type="file" name="imagen" multiple>
+        <input type="file" name="Imagen" multiple>
       </div>
-      <strong class="#d81b60 pink darken-1 ">{{ $errors->first('imagen') }}</strong>
+      <strong class="#d81b60 pink darken-1 ">{{ $errors->first('Imagen') }}</strong>
       <div class="file-path-wrapper">
         <input class="file-path validate" 
         type="text"
